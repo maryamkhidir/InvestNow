@@ -1,0 +1,95 @@
+.home-background {
+  --background: url(../assets/img/indexbg.png) 100% 0/100% no-repeat;
+  --padding-top: 100px;
+}
+.home-background-2 {
+  --background: #0d1531;
+  --padding-top: 30px;
+}
+.header-background {
+  --background: #0D1531;
+  --box-shadow: unset;
+}
+.background-container{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;  
+  background: linear-gradient(180deg, rgba(7, 18, 28, 0.0001) 4.98%, #0D1531 60.18%, #0D1531 96.39%); 
+}
+.container{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;  
+  /* background: linear-gradient(180deg, rgba(7, 18, 28, 0.0001) 4.98%, rgba(13, 21, 49, 0.9) 60.18%, #0D1531 90.39%); */
+  background: linear-gradient(180deg, rgba(7, 18, 28, 0.0001) 4.98%, #0D1531 60.18%, #0D1531 96.39%);
+  justify-content:flex-end;
+  align-items:center;
+  padding-right: 48px;
+  padding-left: 48px;
+  padding-bottom: 70px;
+}
+.container-2{
+  flex:1;
+  flex-direction: column;  
+  background: url(../assets/img/imgfooter.png)  no-repeat center bottom / contain;
+  /* background: linear-gradient(180deg, rgba(7, 18, 28, 0.0001) 4.98%, #0D1531 60.18%, #0D1531 96.39%); */
+  justify-content:center;
+  align-items:center;
+  padding-right: 48px;
+  padding-left: 48px;
+  padding-bottom: 70px;
+}
+.splash-text{
+  font-family:'Recoleta-Bold'; 
+  color: var(--ion-color-tertiary-contrast); 
+  font-size:48px;
+  font-weight:'700'; 
+  line-height:54px;
+  margin-bottom: 20px;
+}
+.splash-text-2{
+  font-family:'Inter-Bold'; 
+  color: var(--ion-color-tertiary-contrast); 
+  font-size:24px;
+  line-height:29px;
+  margin-bottom: 24px;
+}
+.splash-alternate-text{
+  color: var(--ion-color-secondary);
+}
+.splash-secondary-text{
+  color: var(--ion-color-tertiary-contrast);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.ion-header{
+  --ion-display: flex;
+}
+.other-background {
+  --background: #FFF;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  --padding-start: 30px;
+  --padding-end: 30px;
+}
+.header-white-background {
+  --background: #FFF;
+  --box-shadow: unset;
+}
+
+ion-input {
+  --padding-start: 18px !important;
+  --padding-end: 18px !important;
+}
+
+.radio{
+--color:#EDF0F3;
+--border-radius:30px;
+--color-checked:#FFF;
+--size:6px;
+--background:#EDF0F3;
+--border-color:#EDF0F3;
+}
